@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  padding: 16px 50px;
+  border-radius: 12px;
+  background: #009379;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  color: #fff;
+  font-weight: 600;
+  
+}
+
+.btn:hover {
+  background: #e5f4f2;
+  color: #009379;
+  transition-duration: 0.5s;
+}
+ .secondary__btn {
+  display: block;
+  margin: auto;
+  background: #e5f4f2;
+  color: #009379;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  
+ }
+  .secondary__btn:hover {
+    background:  #009379;
+    color: #fff;
+    transition-duration: 0.5s;
+  }
+ 
