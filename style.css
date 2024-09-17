@@ -8,6 +8,7 @@
   background: #009379;
   align-items: center;
   justify-content: center;
+  display: block;
   margin: auto;
   color: #fff;
   font-weight: 600;
@@ -34,3 +35,10 @@
     transition-duration: 0.5s;
   }
  
+  .werapper {
+    display: flex;
+    margin: auto;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
