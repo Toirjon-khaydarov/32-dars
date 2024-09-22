@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       screens: {
-        tablet: "771px",
-        desktop: "1203px",
+        tablet: "880px",
+        desktop: "1420px",
       },
       container: {
         center: true,
@@ -14,7 +14,7 @@ export default {
         },
         screens: {
           DEFAULT: "100%",
-          tablet: "680px",
+          tablet: "880px",
           desktop: "1170px",
         },
       },
